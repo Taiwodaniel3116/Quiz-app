@@ -101,4 +101,7 @@ header .nation-name{
 /* Footer */
 footer h5 {
  text-align: center;
+ padding-top: 40px;
+ font-size: 10px;
+ font-style: italic;
 }

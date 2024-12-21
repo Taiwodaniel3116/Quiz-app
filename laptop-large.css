@@ -31,3 +31,8 @@ header .nation-name {
   height: 45px;
   font-size: 15px;
 }
+/* Footer */
+footer h5 {
+  padding-top: 100px;
+  font-size: 13px;
+}
