@@ -1,0 +1,10 @@
+body {
+  background-color: darkgrey;
+}
+.nation-logo {
+  width: 70px;
+  height: 70px;
+}
+header .nation-name{
+  font-size: 2rem;
+} 

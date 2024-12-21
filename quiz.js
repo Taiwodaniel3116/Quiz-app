@@ -1,5 +1,4 @@
-import { hamburger } from "./general.js";
-hamburger();
+
 const questions = [
    {
      question: 'Who is the President of TGN?',
@@ -99,7 +98,7 @@ function selectAnswer(e) {
 
    function showScore () {
       resetState();
-      questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+      questionElement.innerHTML = ` You scored ${score} out of ${questions.length}!`;
         nextButton.innerHTML = 'Play Again';
         nextButton.style.display = 'block';
    }
@@ -122,3 +121,16 @@ function selectAnswer(e) {
  });
 
    startQuiz();
+
+    //  HAMBURGER MENU
+
+  function hamburger() {
+  const hamburgerMenu = document.querySelector('.js-ham-menu');
+  const navContainer = document.querySelector('.js-nav-container');
+ 
+  hamburgerMenu.addEventListener('click', () => {
+    navContainer.classList.toggle('active');
+    hamburgerMenu.classList.toggle('active');
+ });
+ } 
+ hamburger();
