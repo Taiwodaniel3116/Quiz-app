@@ -7,6 +7,10 @@ header .nation-name{
   font-size: 4rem;
 } 
  /* Main */
+ /* main */
+main h2 {
+  font-size: 4rem;
+}
  .app h2{
   font-size: 70px;
  }

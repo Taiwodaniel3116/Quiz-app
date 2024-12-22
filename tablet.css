@@ -8,6 +8,10 @@ body {
 header .nation-name{
   font-size: 2rem;
 } 
+/* main */
+main h2 {
+  font-size: 2rem;
+}
 /* Footer */
 footer h5 {
   padding-top: 30px;

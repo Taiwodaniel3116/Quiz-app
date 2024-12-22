@@ -1,5 +1,6 @@
+
 body {
- background: url(images/background.jpg)no-repeat center/ cover;
+  background: url(images/background.jpg)no-repeat center;
 }
 header {
   display: flex;
@@ -23,6 +24,14 @@ header .nation-name{
   border-radius: 50%;
 }
 /* Main */
+main h2 {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+  margin-top: 2rem;
+  border-bottom: 1px solid #fff;
+}
 .app {
   background: white;
   width: 90%;
@@ -102,4 +111,8 @@ footer h5 {
  padding-top: 40px;
  font-size: 10px;
  font-style: italic;
+ position: fixed;
+ bottom: 0;
+ left: 25%;
+ right: 25%;
 }
